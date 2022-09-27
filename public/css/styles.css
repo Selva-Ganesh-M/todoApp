@@ -46,14 +46,19 @@ input {
   padding: 10px;
   font-weight: lighter;
   border-radius: 5px;
-  color: white;
-  background-color: hash;
+  color: black;
+  background-color: white;
   border: none;
-  border-bottom: solid 2px white;
+  border-bottom: solid 2px hash;
 }
 
 input:hover {
-  border-bottom: solid 4px powderblue;
+  border-bottom: solid 4px red;
+}
+
+::placeholder {
+  color: black;
+  opacity: 0.5;
 }
 
 button {
