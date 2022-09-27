@@ -29,6 +29,7 @@ li {
 
 li:hover {
   filter: brightness(100%);
+  text-decoration: line-through;
 }
 
 #date {
