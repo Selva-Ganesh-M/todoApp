@@ -22,7 +22,7 @@ li {
   text-align: justify;
   padding: 2%;
   background-color: grey;
-  margin: 5px;
+  margin: 8px;
   border-radius: 5px;
   filter: brightness(80%);
 }
@@ -41,15 +41,23 @@ li:hover {
 }
 
 input {
+  margin-top: 10px;
   font-size: 20px;
-  padding: 4px;
+  padding: 10px;
   font-weight: lighter;
   border-radius: 5px;
   color: white;
   background-color: hash;
+  border: none;
+  border-bottom: solid 2px white;
+}
+
+input:hover {
+  border-bottom: solid 4px powderblue;
 }
 
 button {
   font-size: 18px;
-  padding: 4px;
+  padding: 10px;
+  height: 100%;
 }
